@@ -4,4 +4,4 @@
 
 Используются grid, flex.
 
-https://github.com/Stazz1337/russian-travel
+https://Stazz1337.github.io/russian-travel/index.html
