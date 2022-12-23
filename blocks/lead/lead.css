@@ -4,5 +4,21 @@
   align-items: center;
   max-width: 984px;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 148px;
 }
+
+@media (max-width:1024px)
+{
+  .lead{
+    padding: 0 48px;
+  }
+}
+
+@media (max-width:1024px)
+{
+  .lead{
+    padding: 0;
+  }
+}
+
+

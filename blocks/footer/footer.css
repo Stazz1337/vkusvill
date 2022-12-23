@@ -6,20 +6,16 @@
   justify-content: space-between;
 }
 
-@media (max-width:767px) {
+@media (max-width:768px) {
   .footer {
-    flex-direction: column;
-    row-gap: 48px;
-
-    padding: 64px 24px 16px;
+    padding: 89px 24px 24px;
   }
  }
 
-@media (max-width:420px) {
+@media (max-width:700px) {
 .footer {
   flex-direction: column;
   row-gap: 48px;
-
   padding: 64px 0 24px 16px;
 }
 }

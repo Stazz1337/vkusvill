@@ -9,21 +9,10 @@
   z-index: 1;
 }
 
-@media (max-width:768px)
-{
-  .cover__subtitle {
-    font-size: 14px;
-  line-height: 16px;
-  max-width: 100%;
-  }
-}
-
-
 @media (max-width:420px)
 {
   .cover__subtitle {
     font-size: 14px;
-  line-height: 16px;
-  max-width: 100%;
+    line-height: 16px;
   }
 }

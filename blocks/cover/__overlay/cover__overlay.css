@@ -34,12 +34,12 @@
 @media (max-width:420px)
 {
   .cover__overlay {
-    min-height: 320px;
+    min-height: 200px;
   }
 }
 
 .cover__overlay::before {
-  min-height: 740px;
+  min-height: 100%;
   width: 100%;
   content: '';
   display: block;
@@ -48,29 +48,6 @@
   left: 0;
   background: #2A2C2F;
   opacity: 0.3;
-}
-
-
-@media (max-width: 1024px)
-{
-  .cover__overlay::before  {
-    min-height: 640px;
-  }
-}
-
-
-@media (max-width: 768px)
-{
-  .cover__overlay::before  {
-    min-height: 480px;
-  }
-}
-
-@media (max-width:420px)
-{
-  .cover__overlay::before  {
-    min-height: 320px;
-  }
 }
 
 .cover__overlay:hover:before {

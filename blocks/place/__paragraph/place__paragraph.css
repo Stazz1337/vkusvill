@@ -5,6 +5,20 @@
   margin: 0;
 }
 
-.place__paragraph:not(:last-of-type) {
+.place__paragraph:not(:last-child) {
   margin-bottom: 26px;
+}
+
+@media (max-width: 768px)
+{
+  .place__paragraph {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 425px)
+{
+  .place__paragraph {
+    padding: 0 16px;
+  }
 }
