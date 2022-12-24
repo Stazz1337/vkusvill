@@ -9,7 +9,8 @@
 
 @media (max-width: 768px)
 {
-  .place__paragraph {
+  .place__url-heading {
     line-height: 12px;
+    margin: 0;
   }
 }

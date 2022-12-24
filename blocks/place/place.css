@@ -7,3 +7,16 @@
   flex-wrap: wrap;
   row-gap: 80px;
 }
+
+@media (max-width:768px)
+{
+  .place {
+    row-gap: 73px;}
+}
+
+@media (max-width:425px)
+{
+  .place {
+    row-gap: 50px;}
+}
+

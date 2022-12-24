@@ -1,3 +1,10 @@
+.header__logo {
+  object-fit: cover;
+  width: 176px;
+  height: 52px;
+}
+
+
 @media (max-width:425px)
 {
 .header__logo {
