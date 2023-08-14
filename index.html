@@ -1,174 +1,388 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Путешествия по России</title>
-    <link rel="stylesheet" href="./pages/index.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Детские тренировки на батутах x-kids</title>
+    <meta name="description" content="Детские тренировки на батутах x-kids" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" href="favicon.ico" />
   </head>
 
   <body class="project">
     <div class="page">
       <header class="header">
-        <img src="./images/header-logo.svg" alt="карта России" class="header__logo">
-        <ul class="header__lang-links">
-          <li><a class="header__lang-link header__lang-link_active link" href="#">Ru</a></li>
-          <li><a class="header__lang-link link" href="#">En</a></li>
+        <img
+          src="./images/logo.png"
+          alt="логотип x-kids"
+          class="header__logo"
+        />
+        <nav>
+          <ul class="header__links">
+            <li>
+              <a class="header__links-item link" href="#">Наши достижения</a>
+            </li>
+            <li><a class="header__links-item link" href="#">Тренеры</a></li>
+            <li><a class="header__links-item link" href="#">Блог</a></li>
+          </ul>
+        </nav>
+
+        <ul class="header__contacts">
+          <li class="header__contacts-item link">
+            <a class="header__contacts-link" href="#">Оставить заявку</a>
+          </li>
+          <li class="header__contacts-item link">
+            <a class="header__contacts-link" href="#"
+              >+7&nbsp;(987)&nbsp;654-32-10</a
+            >
+          </li>
         </ul>
       </header>
 
-      <main class="content">
-        <section class="lead">
-          <h1 class="lead__title">Путешествия по&nbsp;России</h1>
-          <p class="lead__subtitle">Настоящая страна не&nbsp;в&nbsp;выпусках новостей, а&nbsp;здесь.</p>
-          <figure class="lead__image-wrapper">
-            <img src="./images/lead-polka.jpg" alt="сон в поезде" class="lead__image">
-            <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
-          </figure>
+      <main class="main">
+        <section class="navigation">
+          <nav>
+            <ul class="navigation__links">
+              <li>
+                <a class="navigation__links-item link" href="#"
+                  >Обучение на сноуборде</a
+                >
+              </li>
+              <li>
+                <a class="navigation__links-item link" href="#"
+                  >Школа сёрфинга</a
+                >
+              </li>
+              <li>
+                <a class="navigation__links-item link" href="#"
+                  >Летний лагерь</a
+                >
+              </li>
+              <li>
+                <a class="navigation__links-item link" href="#"
+                  >Тренировки на батутах</a
+                >
+              </li>
+              <li>
+                <a class="navigation__links-item link" href="#"
+                  >Школа вейкбординга</a
+                >
+              </li>
+            </ul>
+          </nav>
         </section>
 
-        <section class="intro" aria-label="введение">
-          <div class="intro__article">
-            <h2 class="intro__title">Чего мы там не видели?</h2>
-            <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
-            <ul class="intro__list">
-              <li class="intro__list-item">Часовых поясов <span class="intro__span">11</span></li>
-              <li class="intro__list-item">Объектов природного наследия ЮНЕСКО <span class="intro__span">12</span></li>
-              <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО <span class="intro__span">16</span></li>
-              <li class="intro__list-item">Природных заповедников <span class="intro__span">105</span></li>
-              <li class="intro__list-item">Аэропортов <span class="intro__span">241</span></li>
+        <section class="promo">
+          <img
+            src="./images/background.png"
+            alt="фон прыжки на батуте"
+            class="promo__picture"
+          />
+          <h1 class="promo__title">детские тренировки на батутах x-kids</h1>
+          <p class="promo__place">в Санкт-Петербурге</p>
+          <button class="promo__button link">Записаться</button>
+        </section>
+
+        <section class="parts">
+          <div class="parts__wrapper">
+            <h2 class="parts__title">
+              Какие мышцы работают во&nbsp;время прыжков на батуте?
+            </h2>
+            <p class="parts__description">
+              Различные виды упражнений в батутном спорте тренируют
+              вестибулярный аппарат, развивают четкость и координацию движений и
+              способствуют похудению, выполняя, в том числе, роль гимнастики и
+              фитнеса. Чтобы оценить пользу наших занятий для ребенка,
+              мырасскажем, какие мышцы работают при прыжках на батуте.
+            </p>
+          </div>
+          <div class="parts__picture-wrapper">
+            <ul class="parts__pictures">
+              <li class="parts__picture-item">
+                <img
+                  src="./images/hands.png"
+                  alt="руки"
+                  class="parts__picture"
+                />
+              </li>
+              <li class="parts__picture-item">
+                <img
+                  src="./images/backboy.png"
+                  alt="спина"
+                  class="parts__picture"
+                />
+              </li>
+              <li class="parts__picture-item">
+                <img
+                  src="./images/stoma.png"
+                  alt="живот"
+                  class="parts__picture"
+                />
+              </li>
+              <li class="parts__picture-item">
+                <img
+                  src="./images/butt.png"
+                  alt="ягодицы"
+                  class="parts__picture"
+                />
+              </li>
+              <li class="parts__picture-item">
+                <img
+                  src="./images/feet.png"
+                  alt="ноги"
+                  class="parts__picture"
+                />
+              </li>
+            </ul>
+
+            <ul class="parts__arrows-list">
+              <li class="parts__arrows-item">
+                <svg
+                  width="194"
+                  height="384"
+                  viewBox="0 0 194 384"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="189" cy="5" r="5" fill="#F7A819" />
+                  <path
+                    d="M189.949 6.24055C190.082 5.70448 189.755 5.16221 189.219 5.02936C188.683 4.89651 188.14 5.22339 188.008 5.75945L189.949 6.24055ZM93.9995 348.5L94.6575 349.253L93.9995 348.5ZM0.00726738 378.137L10.4371 383.092L9.5133 371.582L0.00726738 378.137ZM188.008 5.75945C180.7 35.2471 177.05 66.2335 174.199 97.3834C171.345 128.558 169.292 159.863 165.182 190.107C156.964 250.575 140.554 306.488 93.3415 347.747L94.6575 349.253C142.423 307.512 158.925 250.997 167.164 190.376C171.282 160.075 173.343 128.67 176.19 97.5658C179.04 66.4366 182.679 35.5746 189.949 6.24055L188.008 5.75945ZM93.3415 347.747C81.6902 357.929 65.2455 364.642 49.3206 369.04C33.4148 373.434 18.1302 375.492 8.88162 376.422L9.08177 378.412C18.3927 377.476 33.7989 375.403 49.8531 370.968C65.8883 366.539 82.6727 359.726 94.6575 349.253L93.3415 347.747Z"
+                    fill="#F7A81A"
+                  />
+                </svg>
+              </li>
+              <li class="parts__arrows-item">
+                <svg
+                  width="126"
+                  height="251"
+                  viewBox="0 0 126 251"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="121" cy="5" r="5" fill="#F7A819" />
+                  <path
+                    d="M121.971 5.23797C122.103 4.70155 121.774 4.16016 121.238 4.02873C120.702 3.8973 120.16 4.22561 120.029 4.76203L121.971 5.23797ZM38.6213 235.076L39.0181 235.994L38.6213 235.076ZM0.0105612 245.996L10.6473 250.49L9.22051 239.032L0.0105612 245.996ZM120.029 4.76203C115.352 23.8492 111.529 46.206 107.515 69.3542C103.497 92.5187 99.2864 116.488 93.8301 138.863C88.3725 161.244 81.6817 181.975 72.7265 198.672C63.7701 215.371 52.599 227.944 38.2245 234.158L39.0181 235.994C53.9648 229.532 65.4183 216.53 74.489 199.617C83.5609 182.702 90.2996 161.783 95.7731 139.337C101.248 116.886 105.469 92.8516 109.485 69.6959C113.504 46.5238 117.315 24.2438 121.971 5.23797L120.029 4.76203ZM38.2245 234.158C24.8531 239.939 15.065 242.642 8.74697 243.904L9.1385 245.865C15.6061 244.574 25.5287 241.826 39.0181 235.994L38.2245 234.158Z"
+                    fill="#F7A81A"
+                  />
+                </svg>
+              </li>
+              <li class="parts__arrows-item">
+                <svg
+                  width="124"
+                  height="103"
+                  viewBox="0 0 124 103"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="119" cy="5" r="5" fill="#F7A819" />
+                  <path
+                    d="M119.845 5.53463C120.14 5.0679 120.001 4.45018 119.535 4.15491C119.068 3.85965 118.45 3.99864 118.155 4.46537L119.845 5.53463ZM32.353 93.8264L32.5181 94.8127L32.353 93.8264ZM0.0182695 96.7873L10.0155 102.566L10.021 91.0186L0.0182695 96.7873ZM118.155 4.46537C108.925 19.0545 97.9428 39.3716 83.9247 57.0074C69.9132 74.6347 53.0389 89.3488 32.1878 92.8401L32.5181 94.8127C54.1064 91.1979 71.3772 76.0071 85.4903 58.2519C99.5966 40.5052 110.718 19.9621 119.845 5.53463L118.155 4.46537ZM32.1878 92.8401C21.388 94.6485 13.9342 95.4606 8.95129 95.7938L9.08474 97.7893C14.1481 97.4507 21.6691 96.6292 32.5181 94.8127L32.1878 92.8401Z"
+                    fill="#F7A81A"
+                  />
+                </svg>
+              </li>
+              <li class="parts__arrows-item">
+                <svg
+                  width="159"
+                  height="56"
+                  viewBox="0 0 159 56"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="154" cy="5" r="5" fill="#F7A819" />
+                  <path
+                    d="M154.513 5.85846C154.987 5.5752 155.142 4.96123 154.858 4.48711C154.575 4.013 153.961 3.85828 153.487 4.14154L154.513 5.85846ZM41.8685 48.4477L41.9317 49.4457L41.8685 48.4477ZM0.0236429 49.8959L9.98505 55.7358L10.0618 44.189L0.0236429 49.8959ZM153.487 4.14154C129.651 18.3827 96.4306 43.9926 41.8054 47.4497L41.9317 49.4457C97.1496 45.9511 130.838 20.0031 154.513 5.85846L153.487 4.14154ZM41.8054 47.4497C25.7631 48.465 15.3969 48.8405 9.00565 48.9559L9.04176 50.9556C15.4705 50.8395 25.8677 50.4623 41.9317 49.4457L41.8054 47.4497Z"
+                    fill="#F7A81A"
+                  />
+                </svg>
+              </li>
+              <li class="parts__arrows-item">
+                <svg
+                  width="155"
+                  height="136"
+                  viewBox="0 0 155 136"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="5"
+                    cy="5"
+                    r="5"
+                    transform="matrix(1 0 0 -1 145 136)"
+                    fill="#F7A819"
+                  />
+                  <path
+                    d="M150.862 130.494C151.142 130.97 150.982 131.583 150.506 131.862C150.03 132.142 149.417 131.982 149.138 131.506L150.862 130.494ZM40.781 10.312L40.6034 11.2961L40.781 10.312ZM0.0230288 6.28905L9.92279 0.345306L10.1203 11.8906L0.0230288 6.28905ZM149.138 131.506C137.521 111.714 123.654 84.0674 105.969 60.0859C88.2844 36.1039 66.9619 16.0534 40.6034 11.2961L40.9587 9.32788C68.0952 14.2256 89.8129 34.8068 107.579 58.8988C125.345 82.9914 139.34 110.862 150.862 130.494L149.138 131.506ZM40.6034 11.2961C25.1887 8.51395 15.1766 7.46614 8.96778 7.13364L9.07473 5.13651C15.3878 5.47459 25.4855 6.5352 40.9587 9.32788L40.6034 11.2961Z"
+                    fill="#F7A81A"
+                  />
+                </svg>
+              </li>
+            </ul>
+
+            <ul class="parts__texts">
+              <li class="parts__text">
+                <h3 class="parts__subtitle">Руки</h3>
+                <p class="parts__subdescription">
+                  Разведение в стороны для удержания баланса тренирует их
+                  выносливость и силу.
+                </p>
+              </li>
+              <li class="parts__text">
+                <h3 class="parts__subtitle">Спина</h3>
+                <p class="parts__subdescription">
+                  Абсолютно любые упражнения на батутах тренируют мышцы спины.
+                </p>
+              </li>
+              <li class="parts__text">
+                <h3 class="parts__subtitle">живот</h3>
+                <p class="parts__subdescription">
+                  Группировка и скручивание в воздухе помогут накачать пресс и
+                  сделать живот подтянутым и упругим.
+                </p>
+              </li>
+              <li class="parts__text">
+                <h3 class="parts__subtitle">ягодицы</h3>
+                <p class="parts__subdescription">
+                  Сильный импульс мышцам дает отталкивание в нижней точке
+                  прыжка. Для усиления нагрузки можно во время прыжка развести
+                  ноги в стороны или одну – вбок, а другую – назад.
+                </p>
+              </li>
+              <li class="parts__text">
+                <h3 class="parts__subtitle">ноги</h3>
+                <p class="parts__subdescription">
+                  Прыжки на батуте обеспечивают лучшую мышечную нагрузку на эту
+                  группу.
+                </p>
+              </li>
             </ul>
           </div>
-        </section> <div class="wrap"></div>
-
-        <section class="photo-grid" aria-label="фотографии природы России">
-          <ul class="photo-grid__items">
-            <li><img src="./images/photo-grid-train.jpg" alt="поезд" class="photo-grid__item"></li>
-            <li><img src="./images/photo-grid-atharva-tulsi.jpg" alt="талышские горы" class="photo-grid__item"></li>
-            <li><img src="./images/photo-grid-tuman.jpg" alt="волк в тумане" class="photo-grid__item"></li>
-            <li><img src="./images/photo-grid-sochi.jpg" alt="лес в сочи" class="photo-grid__item"></li>
-            <li><img src="./images/photo-grid-arisa.jpg" alt="машина на льдине" class="photo-grid__item"></li>
-            <li><img src="./images/photo-grid-baikal.jpg" alt="пляж байкала" class="photo-grid__item"></li>
-            <li><img src="./images/photo-grid-elbrus.jpg" alt="эльбрус" class="photo-grid__item"></li>
-            <li><img src="./images/photo-grid-kondratiev.jpg" alt="кондратьев" class="photo-grid__item"></li>
-            <li><img src="./images/photo-grid-kamchatka-1.jpg" alt="сопки камчатки" class="photo-grid__item"></li>
-            <li><img src="./images/photo-grid-kamchatka-2.jpg" alt="камчатка" class="photo-grid__item"></li>
-            <li><img src="./images/photo-grid-baikal-2.jpg" alt="горы байкала" class="photo-grid__item"></li>
-            <li><img src="./images/photo-grid-ergaki.jpg" alt="горы ергаки" class="photo-grid__item"></li>
-          </ul>
         </section>
-
-        <section class="places">
-          <ul class="place">
-            <li class="place__item">
-              <h2 class="place__title">Куршская коса</h2>
-
-              <div class="place__website">
-                <p class="place__url-heading">URL</p>
-                <a href="http://park-kosa.ru" class="place__link link" target="_blank">park-kosa.ru</a>
-              </div>
-              <img src="./images/place-kosa.jpg" alt="Куршская коса" class="place__image">
-              <div class="place__paragraphs">
-                <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны
-                  и подёрнутого рябью волн Балтийского моря
-                  с другой. Уникальная природная зона на краю российского анклава.</p>
-                <p class="place__paragraph">На этом Калининградская область не заканчивается. Для путешественника
-                  и исследователя там же по соседству — самая западная точка России, Балтийская коса, —
-                  и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы
-                  и запах стального, прохладного моря.</p>
-              </div>
-            </li>
-
-            <li class="place__item">
-              <h2 class="place__title">Кольский</h2>
-
-              <div class="place__website">
-                <p class="place__url-heading">URL</p>
-                <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link link" target="_blank">National Geographic</a>
-              </div>
-              <img src="./images/place-kolsky.jpg" alt="кольский полуостров" class="place__image">
-              <div>
-                <p class="place__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на юг —
-                  тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
-                <p class="place__paragraph">Возможно, вы смотрели Звягинцева и даже слышали историю арктического фестиваля
-                  в Териберке. Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний
-                  об уроках географии. Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной, а от апатитов вас давно накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом
-                  в Мурманск.</p>
-              </div>
-            </li>
-
-            <li class="place__item">
-              <h2 class="place__title">Алтай</h2>
-
-              <div class="place__website">
-                <p class="place__url-heading">URL</p>
-                <a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" class="place__link link" target="_blank">YouTube</a>
-              </div>
-              <img src="./images/place-altai.jpg" alt="алтай" class="place__image">
-              <div>
-                <p class="place__paragraph">Алтай — одно из красивейших мест в России.
-                  В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и озёра. А если вы откроете
-                  в автомобиле окна, сможете познакомиться
-                  с невидимым чудом здешних мест — горным воздухом.</p>
-                <p class="place__paragraph">Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом. Так вы увидите всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы,
-                  а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
-              </div>
-            </li>
-
-            <li class="place__item">
-              <h2 class="place__title">Зимний Байкал</h2>
-
-              <div class="place__website">
-                <p class="place__url-heading">URL</p>
-                <a href="https://vk.com/baikalmile" class="place__link link" target="_blank">https://vk.com/baikalmile</a>
-              </div>
-              <img src="./images/place-winter-baikal.jpg" alt="зимний байкал" class="place__image">
-              <div>
-                <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро
-                  в мире. Многие также знают, что это самый большой источник пресной воды и одно
-                  из красивейших мест в России.</p>
-                <p class="place__paragraph">Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по скийорингу. Это такой вид спорта, когда лыжник привязывает себя к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
-              </div>
-            </li>
-
-            <li class="place__item">
-              <h2 class="place__title">Карелия</h2>
-
-              <div class="place__website">
-                <p class="place__url-heading">URL</p>
-                <a href="http://vodlozero.ru" class="place__link link" target="_blank">http://vodlozero.ru/</a>
-              </div>
-              <img src="./images/place-karelia.jpg" alt="лес карелии" class="place__image">
-              <div>
-                <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный. В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
-              </div>
-            </li>
-
-          </ul>
-        </section>
-
-        <section class="cover">
-          <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__overlay" target="_blank">
-            <h2 class="cover__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h2>
-            <p class="cover__subtitle">По&nbsp;мотивам учебной темы о&nbsp;Транссибе&nbsp;&mdash; путешествие от&nbsp;столицы до&nbsp;Байкала на&nbsp;электричках.</p>
-          </a>
-
-
-        </section>
-
       </main>
+
       <footer class="footer">
-        <nav>
-          <ul class="footer__links">
-            <li><a href="https://yandex.ru/maps" class="footer__link link" target="_blank">Карты</a></li>
-            <li><a href="https://yandex.ru/pogoda" class="footer__link link" target="_blank">Погода</a></li>
-            <li><a href="https://rasp.yandex.ru" class="footer__link link" target="_blank">Расписание</a></li>
-            <li><a href="https://calendar.yandex.ru" class="footer__link link" target="_blank">Календарь</a></li>
-            <li><a href="https://travel.yandex.ru" class="footer__link link" target="_blank">Путешествия</a></li>
-          </ul>
-        </nav>
-        <p class="footer__copyright">&copy; 2022. Stanislaff</p>
+        <h2 class="footer__title">ждем вас</h2>
+        <ul class="footer__list">
+          <li class="footer__list-item">
+            <p class="footer__text">если вашему ребёнку</p>
+            <h3 class="footer__subtitle">от 3 лет</h3>
+          </li>
+          <li class="footer__list-item">
+            <p class="footer__text">если вам необходимо подтянуть</p>
+            <h3 class="footer__subtitle">ВСЕ ГРУППЫ МЫШЦ</h3>
+          </li>
+          <li class="footer__list-item">
+            <p class="footer__text">если он любит</p>
+            <h3 class="footer__subtitle">ПРЫГАТЬ и КУВЫРКАТЬСЯ</h3>
+          </li>
+        </ul>
+
+        <form class="footer__form" name="form" novalidate>
+          <h2 class="footer__form-title">
+            Заполните форму и мы вам перезвоним в ближайшее время
+          </h2>
+
+          <input
+            type="text"
+            id="username"
+            name="username"
+            class="footer__form-input"
+            placeholder="Имя"
+            minlength="2"
+            maxlength="30"
+            required
+          />
+          <input
+            type="text"
+            id="kidname"
+            name="kidname"
+            class="footer__form-input hidden"
+            placeholder="Имя ребенка"
+            minlength="2"
+            maxlength="30"
+            required
+          />
+          <input
+            type="text"
+            id="age"
+            name="age"
+            class="footer__form-input hidden"
+            placeholder="Возраст ребенка"
+            minlength="2"
+            maxlength="30"
+            required
+          />
+
+          <select
+            class="footer__form-input footer__form-input_select hidden"
+            name="activities"
+            id="activities"
+            placeholder="Выберите вид активности"
+            required
+          >
+            <option
+              value=""
+              disabled
+              selected
+              hidden
+              class="footer__form-option"
+            >
+              Выберите вид активности
+            </option>
+            <option value="wake" class="footer__form-option">
+            Вейкбординг
+            </option>
+            <option value="jumps" class="footer__form-option">
+              Прыжки на батутах
+            </option>
+            <option value="surf" class="footer__form-option">Сёрфинг</option>
+            <option value="snow" class="footer__form-option">
+              Сноубординг
+            </option>
+          </select>
+
+          <input
+            type="text"
+            id="number"
+            name="number"
+            class="footer__form-input"
+            placeholder="Телефон"
+            minlength="2"
+            maxlength="30"
+            required
+          />
+
+          <div class="footer__form-checkbox-area">
+            <input
+              type="checkbox"
+              id="checkbox"
+              class="footer__form-checkbox"
+            />
+            <label for="checkbox" class="footer__form-checkbox-label"
+              >
+              <div class="footer__form-checkbox-label-wrapper">
+              <span
+                >Я даю свое согласие на обработку персональных данных и
+                соглашаюсь&nbsp;</span
+              >
+              <span>
+                с&nbsp;
+                <a href="#" class="footer__form-checkbox-link"
+                  >политикой конфиденциальности</a
+                ></span
+              >
+            </div>
+
+              </label
+            >
+          </div>
+
+          <button name="button" type="submit" class="footer__form-button link">
+            Отправить заявку
+          </button>
+        </form>
       </footer>
     </div>
+    <script src="./index.js"></script>
   </body>
 </html>

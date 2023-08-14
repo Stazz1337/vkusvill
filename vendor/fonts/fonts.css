@@ -1,27 +1,17 @@
 @font-face {
-  font-family: 'Inter';
-  font-style:  normal;
+  font-family: "Rounds Black";
+  font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(./Inter-Regular.woff2) format("woff2"),
-       url(./Inter-Regular.woff) format("woff");
+  src: url(./RoundsBlack.woff2) format("woff2"),
+    url(./RoundsBlack.woff) format("woff");
 }
 
 @font-face {
-font-family: 'Inter';
-font-style:  normal;
-font-weight: 700;
-font-display: swap;
-src: url(./Inter-Bold.woff2) format("woff2"),
-      url(./Inter-Bold.woff) format("woff");
-}
-
-
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 900;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 400;
   font-display: swap;
-  src: url(./Inter-Black.woff2) format("woff2"),
-       url(./Inter-Black.woff) format("woff");
+  src: url(./Avenir-Black.woff2) format("woff2"),
+    url(./Avenir-Black.woff) format("woff");
 }
