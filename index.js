@@ -25,7 +25,6 @@ texts.forEach((text, index) => {
   });
 });
 
-
 // show form inputs
 
 const form = document.querySelector(".footer__form");
@@ -33,7 +32,6 @@ const checkbox = document.querySelector(
   '.footer__form-checkbox-area input[type="checkbox"]'
 );
 const formButton = document.querySelector(".footer__form-button");
-
 
 const showInputs = function () {
   const inputs = document.querySelectorAll(
@@ -53,4 +51,21 @@ form.addEventListener("focusin", function (event) {
 
 form.addEventListener("submit", function (event) {
   event.preventDefault();
+});
+
+// open/close sidebar
+
+const burgerButton = document.querySelector(".header__burger");
+const sidebar = document.querySelector(".sidebar");
+const header = document.querySelector(".header");
+const closeButton = document.querySelector(".sidebar__close");
+
+burgerButton.addEventListener("click", () => {
+  sidebar.classList.remove("hidden");
+  header.classList.add("hidden");
+});
+
+closeButton.addEventListener("click", () => {
+  sidebar.classList.add("hidden");
+  header.classList.remove("hidden");
 });
