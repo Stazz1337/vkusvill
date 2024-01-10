@@ -1,17 +1,25 @@
 @font-face {
-  font-family: "Rounds Black";
+  font-family: "Museo Sans Cyrl";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-display: swap;
-  src: url(./RoundsBlack.woff2) format("woff2"),
-    url(./RoundsBlack.woff) format("woff");
+  src: url(.//Museo\ Sans\ Cyrl\ 300\ Regular.woff2) format("woff2"),
+    url(./Museo\ Sans\ Cyrl\ 300\ Regular.woff) format("woff");
+}
+@font-face {
+  font-family: "Museo Sans Cyrl";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(./Museo\ Sans\ Cyrl\ 500\ Regular.woff2) format("woff2"),
+    url(./Museo\ Sans\ Cyrl\ 500\ Regular.woff) format("woff");
+}
+@font-face {
+  font-family: "Museo Sans Cyrl";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(./Museo\ Sans\ Cyrl\ 700\ Regular.woff2) format("woff2"),
+    url(./Museo\ Sans\ Cyrl\ 700\ Regular.woff) format("woff");
 }
 
-@font-face {
-  font-family: "Avenir";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(./Avenir-Black.woff2) format("woff2"),
-    url(./Avenir-Black.woff) format("woff");
-}

@@ -1,0 +1,510 @@
+@import url(../vendor/normalize.css);
+
+@import url(../vendor/fonts/fonts.css);
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.body {
+  max-width: 1200px;
+  min-width: 320px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.header {
+  margin-top: 40px;
+  border-radius: 40px;
+  background: #93bbea;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.header__title {
+  color: #fff;
+  font-family: "Museo Sans Cyrl";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 72px */
+  margin: 40px 0 4px;
+
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+@media screen and (max-width: 940px) {
+  .header__title {
+    font-size: 40px;
+  }
+}
+
+.header__text {
+  color: #fff;
+  text-align: center;
+  font-family: "Museo Sans Cyrl";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 23.8px */
+  margin-bottom: 40px;
+  max-width: 535px;
+
+  position: relative;
+  z-index: 1;
+}
+
+.header__list {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+  margin-bottom: 54px;
+
+  position: relative;
+  z-index: 1;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.header__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 160px;
+  gap: 8px;
+  height: 48px;
+  padding: 13.631px 15px 15px 12.809px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background-color: #fff;
+  text-decoration: none;
+  color: #1a1a1a;
+
+  font-family: "Museo Sans Cyrl";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 18px */
+}
+
+.header__item:hover {
+  opacity: 0.7;
+}
+
+.header__avia-pic {
+  position: absolute;
+  left: 0;
+  top: 50px;
+}
+
+@media screen and (max-width: 1111px) {
+  .header__avia-pic {
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(0.7);
+    left: -30px;
+  }
+}
+
+.header__hand-pic {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+@media screen and (max-width: 1111px) {
+  .header__hand-pic {
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(0.7);
+    right: -50px;
+    bottom: -35px;
+  }
+}
+
+.join {
+  margin: 82px 102px 80px;
+  padding: 42px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 40px;
+  -webkit-box-shadow: 0px 20px 60px 0px rgba(26, 26, 26, 0.05);
+  box-shadow: 0px 20px 60px 0px rgba(26, 26, 26, 0.05);
+}
+
+@media screen and (max-width: 940px) {
+  .join {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 10px;
+    padding: 42px 0;
+    margin: 82px 30px 80px;
+  }
+}
+
+.join__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.join__title {
+  font-family: "Museo Sans Cyrl";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 18px */
+}
+
+@media screen and (max-width: 940px) {
+  .join__title {
+    text-align: center;
+  }
+}
+
+.join__text {
+  font-family: "Museo Sans Cyrl";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 48px */
+}
+
+@media screen and (max-width: 940px) {
+  .join__text {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+.join__list {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 14px;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.join__link:hover {
+  opacity: 0.7;
+}
+
+.info {
+  margin: 80px 102px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .info {
+    margin: 80px 40px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .info {
+    margin: 80px 0;
+  }
+}
+
+.info__title {
+  font-family: "Museo Sans Cyrl";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 48px */
+  margin-bottom: 32px;
+}
+
+@media screen and (max-width: 600px) {
+  .info__title {
+    font-size: 30px;
+  }
+}
+
+.info__list {
+  margin: 0 auto;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+.info__item {
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.info__item:hover {
+  opacity: 0.5;
+}
+
+.info__button-title {
+  font-family: "Museo Sans Cyrl";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 24px */
+  text-align: start;
+}
+
+.info__button-text {
+  font-family: "Museo Sans Cyrl";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 18.2px */
+  text-align: start;
+}
+
+.info__button {
+  background-color: #fff;
+  border-radius: 16px;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  padding: 20px 16px 20px 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+}
+
+.info__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 4px;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  width: 400px;
+}
+
+@media screen and (max-width: 600px) {
+  .info__wrapper {
+    width: 200px;
+  }
+}
+
+.info__arrow {
+  background-image: url(../images/right.svg);
+  width: 24px;
+  height: 24px;
+}
+
+.faq {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 32px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.faq__title {
+  font-family: "Museo Sans Cyrl";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 48px */
+  text-align: center;
+}
+
+@media screen and (max-width: 940px) {
+  .faq__title {
+    font-size: 30px;
+  }
+}
+
+.faq__list {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 24px;
+}
+
+.faq__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 16px;
+  margin: 0 auto;
+
+  -webkit-box-align: center;
+
+  -ms-flex-align: center;
+
+  align-items: center;
+
+  width: 286px;
+  height: 160px;
+
+  border-radius: 16px;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.faq__item-title {
+  font-family: "Museo Sans Cyrl";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 24px */
+}
+
+.faq__item-text {
+  font-family: "Museo Sans Cyrl";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 21px */
+}
+
+.faq__item-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 8px;
+  -ms-flex-item-align: start;
+  -ms-grid-row-align: start;
+  align-self: start;
+}
+
+.faq__item-img {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  background-image: url(../images/cart.png);
+  width: 85px;
+  height: 90px;
+  background-repeat: no-repeat;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.swiper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  color: #1a1a1a;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 20px 27px;
+  -webkit-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  transform: scale(0.5);
+  -webkit-filter: drop-shadow(0px 1px 7px rgba(0, 0, 0, 0.09));
+  filter: drop-shadow(0px 1px 7px rgba(0, 0, 0, 0.09));
+}
+
+.swiper-button-disabled::after {
+  display: none;
+}
